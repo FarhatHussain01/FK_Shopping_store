@@ -13,7 +13,7 @@ const ProductsCard = (props) => {
           </div>
           <div className="product-info p-2">
             <h2 className="title text-xl font-semibold overflow-hidden">
-              {title.slice(0,20)}
+              {title.slice(0,20)}...
             </h2>
 
             <div className="product--price--rating flex justify-between mt-3">
